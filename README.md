@@ -23,17 +23,17 @@ Podemos listar algumas categorias como as seguintes:
 
   Os serviços da azure também apresentam serviços de base de dados para aplicações existentes como base de dados SQL, instacias geridas, Azure Cosmos DB para MongoDB, oracle database e outros.
 
-### Híbridos & MultiCloud
+### ☁️ Híbridos & MultiCloud
   Aqui são apresentados os serviços de gestão híbrida e multcloud com de facilitar a interação os serviços cloud da azure com as outras platafomras cloud e até mesmo serviços on-primised. Deste modo podemos encontrar Azure Arc, Bridges ou pontes de recuros, gestore de sites (Nova ferramente sem SLA), microsoft Entra ID, Servidores de gestão de SCVMM (Sistema de gestão para as maquinas virtuais) , Serviços de dados (como do azure Arc e SQL do Azure), Serviços de segurança como MS Sentinel e MS Defender para Cloud.
   
-### Network
+### 📶 Network
   Outro nome auto-explicativo, podemos encontrar serviços para Fundação de rede, Conectividade híbrida, Segurança de Rede,Balanceamento de carga, e outros.
 
   Resumindo, podemos encontrar tudo que é necessario para construir a nossa rede virtual, links privados realizar NAT entre as redes e a internet, criação de WAN virtuais, montar farewalls e fazer a gestão dos mesmos, monitorar, comunicar com nossa rede on-primised ou outra cloud e todo tipo de serviço de rede.
 
 
-### Web & Mobile
+### 🌐 Web & Mobile
   Aqui onde podemos encontrar serviços para gestão de API (como ligações e serviços de gestão de API), Infraestrutura da aplicações, Gestão de aplicações, serviços de multimédia e pesquisa e outros serviços.
 
-### Conclusão
+### 📚 Conclusão
   O portal da Azure oforece vsrios serviços como alguns não citei nesse resumo, visando cobrir todas as necessidades do cliente numa unica plataforma e permite associar as infraestruras que o cliente já possui para ajudar na redução do custo com o substituição dos meios que já existem. 
