@@ -91,3 +91,34 @@ Podemos listar algumas categorias como as seguintes:
 
 ### Conclusão
   Ao criar uma maquina virtual, devemos levarem conta as necessidades de uso da mesma. Todo e qualquer recurso configurado resultará no valor da factura após o uso que nos obriga verificar detalhadamente as necessidades do projeto de modo a evitar gastos excessivos o que nos remete a necessidade de avaliação do projecto por arquiteto em nuvem.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## Resumo do Lab Configurando uma instância de Banco de Dados na Azure
+Aqui podemos descrever alguns pontos importantes a levar em conta no momento de crição de um banco de dados.
+
+### Servidor
+  Para criar uma base de dados você precisará de um servidor, seja um servidor gerenciado pelo cliente ou não. O servidor será responsavel por armazenar o banco e caso você não possua um, precisa criar para alocar o banco de dados e facilitar o tipo de acesso ao banco de dados.
+
+  No caso de criação de um novo servidor banco de dados, devemos levar em conta a localização do servidor e o tipo de auntenticação.  
+
+### Informações básicas
+  Descrever o nome do banco de dados, o servidor do banco e outras configurações.
+
+### Ambiente de carga de trabalho
+  Permite selecionar o tipo de ambiente em que o banco se encentra:
+- Desenvolvimento
+  - Ambiente de desenvolvimento é aquele a equipa de desenvolvimento tem acesso para teste no periodo de concepção do banco de dados.
+- Produção
+  - Ambiente de produção é um ambiente operacional no qual um aplicação de software ou sistema é implantado e usado por usuários finais para executar suas tarefas pretendidas.
+  - É o ambiente ao vivo onde o software está sendo executado e é acessado por usuários ou clientes reais
+
+
+### Redundancia de Armazenamento
+A redundancia de armazenamento tem haver com as opções de disponibilidade como citado [nos pontos acima](https://github.com/KUYA-A/resumo-do-lab-azure-dio/edit/main/README.md#zona-de-disponibilidade) estando intrissicamente relacionado ao SLA.
+
+### Conclusão
+É bastante facil criar um banco de dados na Azure mas, devemos sempre lembrar de ler a documentação para entender o tipo de serviço que vamos adquirir e que responsabilidade recai sobre o cliente.
+
