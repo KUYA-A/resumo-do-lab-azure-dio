@@ -1,0 +1,45 @@
+[33mcommit cf95b7d8175a6836f914e8399b501c199b302104[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: KUYA-A <ambrosiokuya@hotmail.com>
+Date:   Sun Sep 22 11:53:13 2024 +0100
+
+    <docs> Resumo do Lab BD Azure Update README.md
+    
+    Configurando uma instância de Banco de Dados na Azure
+
+[33mcommit 4c6792485e520c5e651386769baf27c5b94357fb[m
+Author: KUYA-A <ambrosiokuya@hotmail.com>
+Date:   Sun Sep 22 08:33:41 2024 +0100
+
+    <docs> Lab Criando VM na Azure Update README.md
+    
+    Resumo do Lab Criando máquinas Virtuais na Azure
+
+[33mcommit 69b7ef60cdd78d68a140bb7dd62a2080fb3d45ea[m
+Author: KUYA-A <ambrosiokuya@hotmail.com>
+Date:   Fri Sep 20 09:03:19 2024 +0100
+
+    <docs> Update README.md
+    
+    Adicionar emoji nas categorias
+
+[33mcommit 90e4385e79516513aff83dd31364dd4aa0e22831[m
+Author: KUYA-A <ambrosiokuya@hotmail.com>
+Date:   Fri Sep 20 08:58:49 2024 +0100
+
+    <docs> Update README.md
+    
+    Adicionar resumo do lab Microsoft Azure - Localizando Serviços por Categoria.
+
+[33mcommit 40a8af71b1de392329b4c74b9c567b39e29ce00a[m
+Author: KUYA-A <ambrosiokuya@hotmail.com>
+Date:   Thu Sep 19 21:18:39 2024 +0100
+
+    Update README.md
+    
+    Resumindo categorias
+
+[33mcommit e75a5f350f1e454829abf5c023c99b0ea90b8e2f[m
+Author: KUYA-A <ambrosiokuya@hotmail.com>
+Date:   Mon Sep 16 07:47:42 2024 +0100
+
+    Initial commit
