@@ -23,7 +23,7 @@
 
   Ele regista as alterações realizadas nos recursos (desde a crição, edição, eliminação e movimentação), ele tambem cria uma estrutura de relação entre os recursos.
 
-## Configurando Recursos e Dimensionamentos em Máquinas Virtuais na Azure
+## Resumo do Lab Configurando Recursos e Dimensionamentos em Máquinas Virtuais na Azure
 ### VM predifinidas
   A azure permite criar maquinas com alguns recursos de forma automatica, de modo a otimizar os recursos
 
@@ -67,3 +67,24 @@
 - Monitoramento (Alertas, Diagnostico e estado de funcionamento)
 - Avançados (Extenções, Aplicações de VM, Desempenho (NVME), )
 
+## Resumo do Lab Dominando o Armazenamento na Azure
+### Contas de armazenamento
+configuramos contas de armazenamento no Azure com foco em performance, segurança e custos. Iniciamos escolhendo o tipo de conta (Standard ou Premium), conforme a necessidade de desempenho.
+- ** Standard: ** Baseado em discos rígidos (HDD) para cargas de trabalho que não exigem alta performance, como arquivos, backups e logs.
+- ** Premium: ** Baseado em discos de estado sólido (SSD), ideal para alta performance em cargas de trabalho, como bancos de dados e VMs.
+
+#### Redundância de armazenamento
+  Um ponto crucial é o de selecionar o modelo de replicação de dados, como LRS ou GRS, que garantem a disponibilidade e recuperação de dados. Em seguida, ajustamos o desempenho de acesso, escolhendo entre Hot, Cool ou Archive, conforme a frequência de uso dos dados.
+![image](https://github.com/user-attachments/assets/19f582d6-06d9-4228-92a9-73416f3cf690)
+
+#### Tipos de armazenamento
+Também abordamos os tipos de armazenamento (** Blob, arquivos, filas, tabelas **), cada um adequado para diferentes cenários de uso.
+  - Blob do Azure: Para armazenar grandes volumes de dados não estruturados, como arquivos de texto ou binários.
+  - Arquivos do Azure: Sistema de arquivos totalmente gerenciado na nuvem, com compartilhamento via SMB (para migrações de servidores ou backups).
+  - Fila do Azure: Para gerenciar mensagens entre diferentes partes de uma aplicação distribuída.
+  - Tabela: Para armazenamento de grandes quantidades de dados estruturados (NoSQL).
+
+
+### Migração do Azure
+Nesta ponto, focamos no Azure Migrate, um serviço que facilita a migração de cargas de trabalho para a nuvem. Disponibilizando seriviços para varios cenários, como a migração de servidores, bancos de dados, máquinas virtuais (VMs) e até aplicações web.
+![image](https://github.com/user-attachments/assets/a5f91694-564f-4671-9c43-6ca055c29ce0)
