@@ -88,3 +88,25 @@ Também abordamos os tipos de armazenamento (** Blob, arquivos, filas, tabelas *
 ### Migração do Azure
 Nesta ponto, focamos no Azure Migrate, um serviço que facilita a migração de cargas de trabalho para a nuvem. Disponibilizando seriviços para varios cenários, como a migração de servidores, bancos de dados, máquinas virtuais (VMs) e até aplicações web.
 ![image](https://github.com/user-attachments/assets/a5f91694-564f-4671-9c43-6ca055c29ce0)
+
+## Resumo do lab Entendendo sobre Segurança e Identidade na Azure
+
+### Microsoft Entra ID
+Neste lab, exploramos o Microsoft Entra ID, a plataforma de identidade da Microsoft usada para gerenciar usuários, grupos e permissões em aplicações SaaS, como o Microsoft 365. O foco foi garantir a segurança e eficiência no gerenciamento de identidades.
+
+  - Autenticação Multifator (MFA): Protege as contas exigindo múltiplos fatores de autenticação além da senha.
+  - Single Sign-On (SSO): Facilita o acesso a várias aplicações com uma única autenticação, otimizando a experiência do usuário.
+  - Políticas de segurança: Implementamos políticas avançadas de acesso condicional para proteger dados e aplicações.
+
+### Microsoft Entra Domain Services
+O Microsoft Entra Domain Services foi configurado para oferecer compatibilidade com Active Directory (AD) na nuvem, sem precisar gerenciar controladores de domínio.
+
+  - GPOs (Group Policy Objects): Suporte para políticas de grupo tradicionais, facilitando o gerenciamento de VMs no Azure.
+  - Protocolos tradicionais: Compatibilidade com LDAP, Kerberos e NTLM, permitindo que aplicações legadas sejam integradas na nuvem sem mudanças significativas.
+
+### Integração e segurança
+Um ponto crucial foi entender como Microsoft Entra Domain Services permite estender o ambiente local para a nuvem, mantendo as configurações de autenticação e permissões já existentes, e como Entra ID oferece um gerenciamento centralizado de identidades na nuvem.
+
+  - Migração suave: Facilita a transição para a nuvem, sem necessidade de reestruturar o sistema de autenticação.
+  - Monitoramento: Usamos ferramentas como Azure Monitor para acompanhar a saúde do ambiente e garantir a conformidade com as políticas de segurança.
+
